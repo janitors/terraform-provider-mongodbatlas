@@ -1,14 +1,14 @@
 # terraform-provider-mongodbatlas
-[![Build Status](https://travis-ci.org/akshaykarle/terraform-provider-mongodbatlas.svg?branch=master)](https://travis-ci.org/akshaykarle/terraform-provider-mongodbatlas)
-[![GitHub release](https://img.shields.io/github/release/akshaykarle/terraform-provider-mongodbatlas.svg)](https://github.com/akshaykarle/terraform-provider-mongodbatlas/releases)
-[![codecov](https://codecov.io/gh/akshaykarle/terraform-provider-mongodbatlas/branch/master/graph/badge.svg)](https://codecov.io/gh/akshaykarle/terraform-provider-mongodbatlas)
-[![GitHub downloads](https://img.shields.io/github/downloads/akshaykarle/terraform-provider-mongodbatlas/total.svg)]()
+[![Build Status](https://travis-ci.org/janitors/terraform-provider-mongodbatlas.svg?branch=master)](https://travis-ci.org/janitors/terraform-provider-mongodbatlas)
+[![GitHub release](https://img.shields.io/github/release/janitors/terraform-provider-mongodbatlas.svg)](https://github.com/janitors/terraform-provider-mongodbatlas/releases)
+[![codecov](https://codecov.io/gh/janitors/terraform-provider-mongodbatlas/branch/master/graph/badge.svg)](https://codecov.io/gh/janitors/terraform-provider-mongodbatlas)
+[![GitHub downloads](https://img.shields.io/github/downloads/janitors/terraform-provider-mongodbatlas/total.svg)]()
 
 Terraform provider for [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
 ## Requirements
--	[Terraform](https://www.terraform.io/downloads.html) 0.12.x
--	[Go](https://golang.org/doc/install) 1.12 (to build the provider plugin)
+- [Terraform](https://www.terraform.io/downloads.html) 0.12.x
+- [Go](https://golang.org/doc/install) 1.12 (to build the provider plugin)
 
 ## Installing the Provider
 Follow the instructions to [install it as a plugin](https://www.terraform.io/docs/plugins/basics.html#installing-a-plugin). After placing it into your plugins directory, run `terraform init` to initialize it.
@@ -32,14 +32,14 @@ Also look at the example under [/examples](/examples).
 Clone and build the repository
 
 ```sh
-go get github.com/akshaykarle/terraform-provider-mongodbatlas
+go get github.com/janitors/terraform-provider-mongodbatlas
 make build
 ```
 
 ## Updating the Provider
 
 ```sh
-go get -u github.com/akshaykarle/terraform-provider-mongodbatlas
+go get -u github.com/janitors/terraform-provider-mongodbatlas
 make build
 ```
 
