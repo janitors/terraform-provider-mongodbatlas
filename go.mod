@@ -8,8 +8,7 @@ require (
 	github.com/client9/misspell v0.3.4
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/golangci/golangci-lint v1.16.0
-	github.com/google/go-cmp v0.3.0 // indirect
-	github.com/hashicorp/terraform v0.12.0
+	github.com/hashicorp/terraform v0.12.3
 	github.com/spf13/afero v1.2.2 // indirect
 	google.golang.org/appengine v1.5.0 // indirect
 	google.golang.org/genproto v0.0.0-20190502173448-54afdca5d873 // indirect
